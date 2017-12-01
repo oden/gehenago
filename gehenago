@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Gehenago < Brainfuck
+  inc '海底に沈みし忍びの魔物'
+  dec '賢者が創りし緑の扇'
+  nxt '赤き大地の真珠'
+  prv '猛りし獣の肉'
+  opn '紅き涙'
+  cls '漆黒の涙'
+  get 'ホワイトドラゴンの瞳からこぼれし熱き涙'
+  put '闇の洗礼'
+end
+
+puts Gehenago.new.fuck(ARGF.read)
+
+
+
